@@ -15,5 +15,5 @@ jobs:
 
       - name: Deploy
         run: |
-          cd $GITHUB_WORKSPACE
+          cd ~/blog
           ./script.sh
