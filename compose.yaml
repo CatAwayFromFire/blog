@@ -1,5 +1,3 @@
 services:
   blog:
-    build: .
-    ports:
-      - "80:80"
+    image: ghcr.io/catawayfromfire/blog:latest
